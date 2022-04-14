@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        table,
+        th,
+        td {
+            border: 1px solid black;
+        }
+
+        th,
+        td {
+            padding: 10px;
+        }
+
+        .button {
+            color: rgb(239, 227, 227);
+            background-color: rgb(65, 115, 215);
+            border-radius: 5px;
+        }
+
+        .button2 {
+            color: rgb(234, 243, 136);
+            background-color: rgb(239, 15, 15);
+            border-radius: 5px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Contact US</h1>
+
+    <table>
+
+
+        <form method="get" action="thanks.html">
+            <tr>
+                <td> <label for="name">Name</label></td>
+                <td><input type="text" id="name" name="name" value='Abanoub Magdi' required></td>
+            </tr>
+            <tr>
+                <td> <label for="Age">Age</label></td>
+                <td><input type="number" id="Age" Age="Age"></td>
+            </tr>
+            <tr>
+                <td> <label for="Email">Email</label></td>
+                <td> <input type="text" id="Email" name="Email"></td>
+            </tr>
+            <tr>
+                <td> <label for="Phones">Phones</label></td>
+                <td> <input type="Phones" id="Phones" name="Phones" required></td>
+            </tr>
+
+            <tr>
+                <td> <label for="Gender">Gender</label></td>
+                <td>
+                    <label for="Gender">male</label> <input type="radio" id="" name="Gender" value="male">
+                    <label for="Gender">Femail</label> <input type="radio" id="" name="Gender" value="Femail">
+
+                </td>
+            </tr>
+            <tr>
+                <td> <label for="status">status</label></td>
+                <td><select name="status" id="">
+                        <option value="Single">Single</option>
+                        <option value="Married">Married</option>
+                        <option value="Other">Other</option>
+                    </select></td>
+            </tr>
+
+            <tr>
+                <td><label for="subject">subject</label></td>
+                <td><input type="text" name="subject" id="subject"></td>
+            </tr>
+            <tr>
+                <td> <label for="Message">Message</label></td>
+                <td><textarea id="Message" name="Message" rows="4" cols="50"></textarea></td>
+            </tr>
+    </table><br>
+    <input type="submit" class="button2">
+
+    </form>
+    <br><br>
+    <span>
+        <form action="index.html">
+            <button class="button">Home</button>
+        </form>
+    </span>
+
+</body>
+
+</html>
